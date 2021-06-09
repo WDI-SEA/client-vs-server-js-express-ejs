@@ -6,7 +6,7 @@ app.set('view engine', 'ejs')
 app.use(ejsLayouts)
 
 app.get('/', (req, res) => {
-    console.log("✨✨✨✨ THIS IS SERVER SIDE JS ✨✨✨✨")
+    console.log("✨✨✨✨ CONSOLE LOG FROM OUR BACKEND ✨✨✨✨")
 
     let aJSMessage = "Hello! This is the backend saying hello too!"
 
